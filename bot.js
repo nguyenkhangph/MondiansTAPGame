@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf');
-const bot = new Telegraf(process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN);
+const bot = new Telegraf('7468598166:AAHNqi11GPoQw6rtZg2LH-WqzIFYNDirA6c');
 
 bot.start((ctx) => {
   ctx.reply('Welcome! Click the button below to start the game.', {
@@ -8,7 +8,7 @@ bot.start((ctx) => {
         [
           {
             text: 'Start Game',
-            web_app: { url: process.env.NEXT_PUBLIC_TELEGRAM_WEB_APP_URL },
+            web_app: { url: 'https://nguyenkhangph.github.io/MondiansTAPGame' },
           },
         ],
       ],

@@ -37,7 +37,7 @@ const GameComponent = () => {
       <h2 className={styles.info}>You have <span className={styles.spins}>{spins}</span> spins</h2>
       <input
         type="text"
-        placeholder=""
+        placeholder="Enter your Telegram chat ID"
         value={chatId}
         onChange={(e) => setChatId(e.target.value)}
         className={styles.chatInput}
