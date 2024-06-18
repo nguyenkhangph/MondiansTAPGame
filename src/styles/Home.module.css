@@ -1,0 +1,45 @@
+.gameContainer {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .info {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .coins, .spins {
+    font-weight: bold;
+    color: #0070f3;
+  }
+  
+  .chatInput {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 2rem);
+  }
+  
+  .tapButton {
+    background-color: #0070f3;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tapButton:hover {
+    background-color: #005bb5;
+  }
+  

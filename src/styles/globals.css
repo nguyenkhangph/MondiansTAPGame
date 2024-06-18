@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fa;
+    color: #333;
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .appContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    padding: 1rem;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+  }
+  
+  header {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  footer {
+    font-size: 1rem;
+  }
+  
+  h2 {
+    margin: 1rem 0;
+  }
+  
